@@ -46,7 +46,7 @@ Début
    
    Début
    
-      Afficher("température à",i, "est",Temp[i]);
+      Afficher("température à",i, "est ",Temp[i]);
       
    Fin
    
