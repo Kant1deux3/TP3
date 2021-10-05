@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(void) {
-  float Temp[5];
+  float Temp[24];
   int i;
   float temperature;
   
 
   //Demande des températures
-  for(i=0; i<5; i++)
+  for(i=0; i<24; i++)
   {
     do
     {
@@ -18,7 +18,7 @@ int main(void) {
   }
     //Afficher les températures
 
-    for(i=0; i<5; i++)
+    for(i=0; i<24; i++)
     {
       printf("température à %dh ",i);
       printf("est %f°\n", Temp[i]);
